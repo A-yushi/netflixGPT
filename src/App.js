@@ -1,14 +1,11 @@
 import './App.css';
+import Login from './Components/Login';
+import Body from './Components/Body'
 
 function App() {
   return (
     <div>
-    <div className="text-5xl text-pink-500 self-center font-bold">
-     Hello
-    </div>
-    <div>
-      <h1>Hello from App......</h1>
-    </div>
+      <Body/>
     </div>
   );
 }
